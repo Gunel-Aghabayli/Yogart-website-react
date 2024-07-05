@@ -1,0 +1,29 @@
+.class{
+    background-image: url(https://assets.website-files.com/5f36828308ea3b14a0500991/5f36828308ea3b905b5009fe_abstract-bg.svg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    padding-top: 100px;
+}
+
+.names {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  width: 900px;
+  margin: 0 auto;
+  column-gap: 80px;
+  row-gap: 40px;
+}
+.cube{
+    background-color: #eaf4f4;
+    padding: 30px;
+    border-radius: 20px;
+}
+.cube h3{
+color: #86df01;
+}

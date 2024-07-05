@@ -1,0 +1,59 @@
+.navbar {
+  display: grid;
+  grid-template-columns: 600px 500px 300px;
+  align-items: center;
+  margin: 30px 30px;
+  bottom: 100px;
+  background-color: transparent;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+.icon img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.icon span {
+  font-size: 30px;
+  font-weight: 600;
+}
+.butons {
+  display: flex;
+  gap: 10px;
+}
+.links a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+.links {
+  display: flex;
+  gap: 20px;
+}
+.buton1 {
+  background-color: #86df01;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+  padding: 20px 40px;
+  border-radius: 30px;
+}
+.buton2 {
+  font-size: 20px;
+  background: #86df01;
+  border-radius: 30px;
+  border: none;
+  padding: 20px;
+  color: white;
+}
+.links a:hover {
+  color: #86df01;
+}
